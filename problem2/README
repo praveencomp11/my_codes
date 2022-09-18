@@ -1,7 +1,9 @@
+Please check the problem statement below.
 There are two solutions to following problem statement:
 
 Solution 1 (source.cpp) : Works only for the easy test cases, Some hard test cases failed
-   In this solution we added extra vector to track the things and number of comparisions are incresing every iteration as we are comparing with all items one by one.
+   This technique includes an additional vector to monitor the things, and since we are comparing each item individually, 
+   the number of comparisons grows with each iteration.
    
    
 Solution 2 (Solution2.cpp) : Using priority_queue 
@@ -14,9 +16,9 @@ Solution 2 (Solution2.cpp) : Using priority_queue
     
  priority_queue decaration:
      priority_queue(int, vector<int>, greater<int> )
-         By default it place gretest element on top but because of above declaration small element will be placed on the top. And we are putting meeting 
-         meeting end time on the priory queue so that we can copared next meeting starting time with top of queue whether it can accomodate or needs be added.
-         
+         By default, it places the largest element on top, but thanks to the aforementioned declaration, a smaller element will be placed there instead.
+         And we are adding the end time of the current meeting to the top of the priority queue so that we may compare the beginning of the next meeting
+         with that time to see if more time can be added.
          
         
         
