@@ -1,7 +1,7 @@
 There are two solutions to following problem statement:
 
-Solution 1: Works only for the easy test cases, Some hard test cases failed
-
+Solution 1 (source.cpp) : Works only for the easy test cases, Some hard test cases failed
+         
 Solution 2: Using priority_queue 
         Best Solution
         
